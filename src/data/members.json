@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Alex",
+    "role": "Guitarist / Vocalist",
+    "core": "Featured Performer",
+    "status": "Active",
+    "age": 30,
+    "trivia": "Likes to touch salmon meaningfully",
+    "imageUrl": "/image/members/Alex.jpg"
+  },
+  {
+    "name": "Andy",
+    "role": "Vocalist",
+    "core": "Featured Performer",
+    "status": "Active",
+    "age": 50,
+    "trivia": "Can recite the entire dialogue of of his favourite film\n \"Barbie and the Secret Door\"",
+    "imageUrl": "/image/members/Andy.jpg"
+  },
+  {
+    "name": "Howard",
+    "role": "Keyboard / Vocalist",
+    "core": "Founding Member",
+    "status": "Active",
+    "age": 40,
+    "trivia": "Has a collection of Barbra Streisand wigs, he wears them when cleaning to feel fulfilled",
+    "imageUrl": "/image/members/Howard.jpg"
+  },
+  {
+    "name": "Jay",
+    "role": "Drummer / Guitarist / Vocalist",
+    "core": "Founding Member",
+    "status": "Active",
+    "age": 30,
+    "trivia": "Communicates with soil,\n wants to be a pumpkin when he grows up",
+    "imageUrl": "/image/members/Jay.jpg"
+  },
+  {
+    "name": "Kim",
+    "role": "Mui g owner",
+    "core": "Featured Performer",
+    "status": "Inactive",
+    "age": 40,
+    "trivia": "He collects dogs,\n regardless of who owns them",
+    "imageUrl": "/image/members/Kim.jpg"
+  },
+  {
+    "name": "Kiv",
+    "role": "Drummer / Guitar / Vocals / Tech support",
+    "core": "Featured Performer",
+    "status": "Inactive",
+    "age": 30,
+    "trivia": "Adds lettuce to everything;\n food, clothing,...",
+    "imageUrl": "/image/members/Guy2.jpg"
+  },
+  {
+    "name": "Michael",
+    "role": "Guitarist / Vocalist",
+    "core": "Featured Performer",
+    "status": "Active",
+    "age": 35,
+    "trivia": "Challenged a goose to a fight and lost",
+    "imageUrl": "/image/members/Guy1.jpg"
+  },
+  {
+    "name": "Pedro",
+    "role": "Band Leader / Lead Guitarist / Vocalist",
+    "core": "Founding Member",
+    "status": "Active",
+    "age": 50,
+    "trivia": "Has tried to get the hobby of rock licking off the ground in Australia, currently has four members in his club",
+    "imageUrl": "/image/members/Pedro.jpg"
+  },
+  {
+    "name": "Shaun",
+    "role": "Saxonphonist",
+    "core": "Featured Performer",
+    "status": "Active",
+    "age": 40,
+    "trivia": "Wears sunglasses at night to stop ghosts from stealing his buttered toast recipe",
+    "imageUrl": "/image/members/Shaun.jpg"
+  },
+  {
+    "name": "Sunny",
+    "role": "Guitarist / Vocals / Tech support",
+    "core": "Featured Performer",
+    "status": "Inactive",
+    "age": 27,
+    "trivia": "Is not actually a sun",
+    "imageUrl": "/image/members/Sunny.jpg"
+  },
+  {
+    "name": "Veronica",
+    "role": "Vocalist",
+    "core": "Featured Performer",
+    "status": "Active",
+    "age": 44,
+    "trivia": "May have been the inspiration for obvious warning labels on household products",
+    "imageUrl": "/image/members/Veronica.jpg"
+  }
+]

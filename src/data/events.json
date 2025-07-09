@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "title": "A Night of Hong Kong Pop Classics",
+        "date": "2024-11-03",
+        "day": "Sunday",
+        "time": "6:00 PM - 9:30 PM",
+        "venue": "Club Noir",
+        "address": "3994 Pacific Highway, Loganholme, QLD 4129",
+        "host": "Game On Band 新技安樂團",
+        "description": "Game On Band is hosting a one-night-only concert in Brisbane celebrating classic Hong Kong pop music. The night features nostalgic live performances, food, drinks, and a welcoming community atmosphere.",
+        "highlights": [
+            "Live renditions of Cantopop classics",
+            "Cantonese/English bilingual emceeing",
+            "Authentic HK food stalls and full bar",
+            "Family-friendly event for all ages"
+        ],
+        "promoVideo": "https://youtu.be/-hvth8jL-lg?si=Ke3c8SDcNfyqYQaj",
+        "ticketsLink": "https://www.eventbrite.com.au/e/game-on-live-band-presents-a-night-of-hong-kong-pop-classics-brisbane-tickets-1365162881929",
+        "tags": [
+            "cantopop",
+            "brisbane",
+            "liveband",
+            "hongkong",
+            "2024"
+        ],
+        "public": true
+    },
+    {
+        "id": 2,
+        "title": "HKer Rocks in Brisbane",
+        "date": "2025-09-20",
+        "day": "Saturday",
+        "time": "6:00 PM - 10:00 PM",
+        "venue": "Club Noir (Performance Studio)",
+        "address": "3994 Pacific Highway, Loganholme, QLD 4129",
+        "host": "Game On Band 新技安樂團",
+        "description": "A tribute to timeless Hong Kong and international music by Game On Band. Expect high energy, live instruments, and a vibrant crowd.",
+        "highlights": [
+            "Powerful vocals and live instruments",
+            "Tribute to Cantopop and global classics",
+            "Family-friendly, food stalls, and licensed bar",
+            "Huge venue with 200-car parking"
+        ],
+        "agenda": [
+            {
+                "time": "18:00 - 18:50",
+                "title": "Doors Open & Dinner",
+                "details": "Food stalls and drinks available for purchase"
+            },
+            {
+                "time": "18:50 - 19:00",
+                "title": "Seating",
+                "details": "Find your allocated seat"
+            },
+            {
+                "time": "19:00 - 20:00",
+                "title": "Concert Part 1",
+                "details": "A Night of Hong Kong Pop Classics"
+            },
+            {
+                "time": "20:00 - 20:15",
+                "title": "Interval",
+                "details": "Grab a drink or snack before Part 2"
+            },
+            {
+                "time": "20:25 - 22:00",
+                "title": "Concert Part 2",
+                "details": "Final set of high-energy classics"
+            }
+        ],
+        "ticketsLink": "https://www.eventbrite.com.au/e/game-on-live-band-tickets-1365162881929",
+        "promoVideo": "https://youtu.be/-hvth8jL-lg?si=Ke3c8SDcNfyqYQaj",
+        "tags": [
+            "brisbane",
+            "cantopop",
+            "liveband",
+            "hongkongers",
+            "classics",
+            "event",
+            "family",
+            "music",
+            "gameon_liveband"
+        ],
+        "public": true
+    }
+]

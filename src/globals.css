@@ -1,0 +1,55 @@
+/* globals.css */
+@import "tailwindcss";
+
+/* Themes */
+@theme {
+
+    /* Animations */
+    --animation-pulseGlow: pulseglow 1.5s ease-in-out infinite;
+    --animation-slideInRight: slideInRight 0.3s ease-out forwards;
+
+}
+
+/* Keyframes */
+@keyframes pulseglow {
+    0%,
+    100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.25);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Optimizations and Layout Stability */
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hint browser to optimize dropdown transitions */
+/* .dropdown-animate {
+    will-change: transform, opacity;
+} */
+
+/* Ensure background layer never resizes due to DOM reflow */
+/* body::before {
+    contain: layout paint;
+} */

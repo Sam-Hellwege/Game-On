@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'TiltNeon', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  src: url('/src/assets/fonts/TiltNeon-Regular-VariableFont_XROT,YROT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TITLES */
+.neon-title {
+  font-family: 'TiltNeon', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  color: rgb(221, 225, 234); /* soft icy silver-blue */
+
+  text-shadow:
+    0 0 1px rgba(221, 225, 234, 0.8),  /* subtle inner glow */
+    0 0 3px rgba(190, 245, 255, 0.9),  /* light cyan outer halo */
+    0 0 6px rgba(170, 240, 255, 0.6),  /* larger neon blur */
+    0 0 10px rgba(140, 220, 255, 0.4); /* distant soft glow */
+}
+
+
+/* NAVIGATION BAR FONTS AND CSS GLOBAL RULES */
+.nav-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* INDIVIDUAL NAV-LINK CSS RULES */
+.nav-link {
+  font-family: 'TiltNeon', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  color: #aefeff;
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  text-shadow:
+    0 0 0.5px #aefeff,
+    0 0 1px #89ffff,
+    0 0 1.5px #00ffff;
+}
+
+/* NAV LINK ON HOVER RULES */
+.nav-link:hover {
+  animation: nav-flicker 0.8s linear infinite;
+  transform: scale(1.05);
+  will-change: text-shadow;
+}
+
+/* NAV LINK ACTIVE / CURRENT PAGE RULES */
+.nav-link.active {
+  color: #ffffff;
+  text-shadow:
+    0 0 2px #ffffff,
+    0 0 4px #ccfaff,
+    0 0 6px #99f2ff,
+    0 0 10px #66eaff,
+    0 0 12px #33e0ff,
+    0 0 15px #00d9ff;
+  font-weight: bold;
+}
+
+/* NAV LINK FLICKER */
+@keyframes nav-flicker {
+  0%, 100% {
+    text-shadow:
+      0 0 2px #aefeff,
+      0 0 4px #89ffff,
+      0 0 6px #00ffff,
+      0 0 8px #00e0ff,
+      0 0 10px #00bfff;
+  }
+  50% {
+    text-shadow:
+      0 0 0.5px #aefeff,
+      0 0 1px #89ffff,
+      0 0 1px #00bfff;
+  }
+}
+
+/* NOTE THIS WILL NEED TWEAKING.
+NEEDS TO MEET STYLE AND READABILITY REQUIREMENTS */
+.neon-ice-blue {
+  font-family: 'TiltNeon', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  color: #aefeff; /* soft icy blue text color */
+
+  /* Layered glow for neon effect */
+  text-shadow:
+    0  0  1px  #aefeff,  /* soft inner glow */
+    0  0  1px    #aefeff,  /* subtle brightness stacking */
+    0  0  0.5px    #89ffff,  /* icy blue edge */
+    0  0  1px  #00ffff,  /* brighter cyan edge */
+    0  0  1px  #00e0ff,  /* medium blue glow */
+    0  0  1px  #00bfff;  /* cooler outer halo */
+}
+
+.neon-ice-blue-small {
+  font-family: 'TiltNeon', 'Noto Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  color: #aefeff; /* soft icy blue text color */
+  
+  /* Simplified neon glow for smaller text */
+  text-shadow:
+    0 0 1px #aefeff,    /* subtle inner glow */
+    0 0 1px #5fdfff,    /* light cyan glow */
+    0 0 1px #00bfff;    /* soft outer halo */
+}
+
+.flicker {
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
