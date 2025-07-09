@@ -9,7 +9,7 @@ import type {
   VideoItem
 } from '../types/YouTubeTypes';
 
-const API_KEY = '[INSERT API KEY - FOR YOUTUBE PULLS]'; // Replace with your real key if needed
+const API_KEY = '[INSERT API KEY - FOR YOUTUBE PULLS]'; // Replace with real api key for youtube
 const CHANNEL_HANDLE = 'GameOn-n7o';
 
 async function getChannelId(): Promise<string> {
